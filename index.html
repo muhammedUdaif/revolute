@@ -85,7 +85,8 @@
                         </a>
                     </div>
                     <div class="hero-card-container">
-                        <div class="inside-hero-card">
+                        <div class="inside-hero-card" >
+                            <div class="hero-card-overlay"></div>
                             <div class="picture-containg-hero-card">
                                 <picture>
                                    <source srcset="https://assets.revolut.com/published-assets-v3/bf61de3c-c08f-454e-bce7-0d7bfe8020d0/2d74e03b-e5f6-40f5-b963-17d5e8316dcb.png 1080w, https://assets.revolut.com/published-assets-v3/bf61de3c-c08f-454e-bce7-0d7bfe8020d0/21ee6e26-28e0-4abf-8413-2d87a950d844.png 2048w, https://assets.revolut.com/published-assets-v3/bf61de3c-c08f-454e-bce7-0d7bfe8020d0/4d2a0891-36e8-4a68-992f-b50e72fcd10e.png 3840w" type="image/webp"> 
@@ -102,7 +103,7 @@
                     <span class="salary-description-container">
                         <h2 class="salary-heading">Your salary, reimagined</h2>
                         <p class="salary-paragraph">Spend smartly, send quickly, sort your salary automatically, and watch your savings grow — all with Revolut.</p>
-                        <a class="move-salary-button">
+                        <a class="move-salary-button" id="for-margin">
                             <span class="header-list-nothing"></span>
                             <span class="login-contenet">Move your salary</span>
                         </a>
@@ -172,96 +173,41 @@
             </div>
         </section>
         <!-- Join million customers -->
-         <section class="million-customers-container">
-            <span class="under-million-customers-container">
-                <h2 class="million-customer-heading">Join 60+ million customers worldwide and 11+ million in the UK</h2>
-                <ul class="million-customer-unorder-list">
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                   <source srcset="https://assets.revolut.com/published-assets-v3/752d54a2-44fe-40b0-acc7-d5abc209f81b/383f385d-1d05-4010-b9d1-efc8247ac534.png 1080w, https://assets.revolut.com/published-assets-v3/752d54a2-44fe-40b0-acc7-d5abc209f81b/93455cc7-bb46-4277-bb80-26f45cb66c7d.png 2048w, https://assets.revolut.com/published-assets-v3/752d54a2-44fe-40b0-acc7-d5abc209f81b/d82f81eb-d1c3-48c8-908d-d11da9048079.png 3840w" type="image/webp">
-                                   <img src="https://assets.revolut.com/published-assets-v3/752d54a2-44fe-40b0-acc7-d5abc209f81b/93455cc7-bb46-4277-bb80-26f45cb66c7d.png" alt="customers-image" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">#3 most downloaded finance app</figcaption>
-                        </figure>
-                    </li>
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                    <source srcset="https://assets.revolut.com/published-assets-v3/aac30c67-5ce4-4c09-9bc7-faa71b387d4f/ad0339c9-5031-4d0a-921f-d0df36bf8242.png 1080w, https://assets.revolut.com/published-assets-v3/aac30c67-5ce4-4c09-9bc7-faa71b387d4f/709a6403-fbfe-40cc-861a-144f38410ece.png 2048w, https://assets.revolut.com/published-assets-v3/aac30c67-5ce4-4c09-9bc7-faa71b387d4f/a39750af-bc2b-4de9-a0ba-ec498ee50448.png 3840w" type="image/webp">
-                                    <img src="https://assets.revolut.com/published-assets-v3/aac30c67-5ce4-4c09-9bc7-faa71b387d4f/709a6403-fbfe-40cc-861a-144f38410ece.png" alt="customers-image" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">4.6 out of 5 on Trustpilot</figcaption>
-                        </figure>
-                    </li>
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                    <source srcset="https://assets.revolut.com/published-assets-v3/09561d12-4637-4cd0-b3db-53954799006a/1fbd93ba-69f0-472a-83c9-ea1bf271ac8b.png 1080w, https://assets.revolut.com/published-assets-v3/09561d12-4637-4cd0-b3db-53954799006a/1fbd93ba-69f0-472a-83c9-ea1bf271ac8b.png 2048w, https://assets.revolut.com/published-assets-v3/09561d12-4637-4cd0-b3db-53954799006a/1fbd93ba-69f0-472a-83c9-ea1bf271ac8b.png 3840w" type="image/webp">
-                                    <img src="https://assets.revolut.com/published-assets-v3/09561d12-4637-4cd0-b3db-53954799006a/1fbd93ba-69f0-472a-83c9-ea1bf271ac8b.png" alt="customers-image" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">Best International Payments Provider 2025</figcaption>
-                        </figure>
-                    </li>
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                    <source srcset="https://assets.revolut.com/published-assets-v3/062c847e-db73-4f11-ad98-ac842537d470/e455a70e-f591-4d5f-ba5f-eb8123d56b8e.png 1080w, https://assets.revolut.com/published-assets-v3/062c847e-db73-4f11-ad98-ac842537d470/e455a70e-f591-4d5f-ba5f-eb8123d56b8e.png 2048w, https://assets.revolut.com/published-assets-v3/062c847e-db73-4f11-ad98-ac842537d470/e455a70e-f591-4d5f-ba5f-eb8123d56b8e.png 3840w" type="image/webp">
-                                    <img src="https://assets.revolut.com/published-assets-v3/062c847e-db73-4f11-ad98-ac842537d470/e455a70e-f591-4d5f-ba5f-eb8123d56b8e.png" alt="customers-image" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">Best Consumer Banking Mobile App 2025</figcaption>
-                        </figure>
-                    </li>
-                </ul>
-            </span>
+         <section class="million-customer-review">
+            <h2 class="million-customer-head">Join 60+ million customers worldwide and 11+ million in the UK</h2>
+            <ul class="million-customer-unordered-lists">
+                <li class="million-customer-list-sections">
+                    <img src="https://assets.revolut.com/published-assets-v3/baf74063-c481-431d-85a0-9e5743572f28/91d20a70-1a2d-46e1-8f45-ebd7e83196a8.png" alt="" class="million-customer-image-items">
+                    <span class="million-text-containg-section">#3 most downloaded finance app</span>
+                </li>
+                <li class="million-customer-list-sections">
+                    <img src="https://assets.revolut.com/published-assets-v3/6ca566dc-8294-4e99-afbd-c51804cc5af4/2fb9c781-10a1-4bbf-bb42-7526bcc81286.png" alt="" class="million-customer-image-items">
+                    <span class="million-text-containg-section">4.6 out of 5 on Trustpilot</span>
+                </li>
+                <li class="million-customer-list-sections">
+                    <img src="https://assets.revolut.com/published-assets-v3/c5c49070-312c-4567-8359-6ffc1624cafa/931fbf11-937a-45d4-9c9d-7078412a8ba9.png" alt="" class="million-customer-image-items">
+                    <span class="million-text-containg-section">Best International Payments Provider 2025</span>
+                </li>
+                <li class="million-customer-list-sections">
+                    <img src="https://assets.revolut.com/published-assets-v3/65e5f825-aa83-424e-9a3a-ad421e6cada3/059ee08c-19cd-4861-899f-e9a493a5bcd5.png" alt="" class="million-customer-image-items">
+                    <span class="million-text-containg-section">Best Consumer Banking Mobile App 2025</span>
+                </li>
+            </ul>
          </section>
-         <!-- customer satisfication section two cards -->
-         <section class="customer-satisfaction-card">
-            <span class="under-customer-satisfication-card">
-                <ul class="million-customer-unorder-list">
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                    <source srcset="https://assets.revolut.com/published-assets-v3/acb0a888-3938-4996-b135-ed00772c1383/e82925fe-65b3-4a75-a5ca-04c0ea56350f.png 1080w, https://assets.revolut.com/published-assets-v3/acb0a888-3938-4996-b135-ed00772c1383/e82925fe-65b3-4a75-a5ca-04c0ea56350f.png 2048w, https://assets.revolut.com/published-assets-v3/acb0a888-3938-4996-b135-ed00772c1383/e82925fe-65b3-4a75-a5ca-04c0ea56350f.png 3840w" type="image/webp">
-                                    <img src="https://assets.revolut.com/published-assets-v3/acb0a888-3938-4996-b135-ed00772c1383/e82925fe-65b3-4a75-a5ca-04c0ea56350f.png" alt="customer-satisfication-card" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">Customer Satisfaction — Gold</figcaption>
-                        </figure>
-                    </li>
-                    <li class="million-customer-list-items">
-                        <figure class="million-picture-container">
-                            <div class="million-customer-image-section">
-                                <picture>
-                                    <source srcset="https://assets.revolut.com/published-assets-v3/34cdb6a9-7cf7-4a5d-a902-0642aabddd18/6c752fc4-fdb7-465b-81d6-37ef540ca33b.png 1080w, https://assets.revolut.com/published-assets-v3/34cdb6a9-7cf7-4a5d-a902-0642aabddd18/6c752fc4-fdb7-465b-81d6-37ef540ca33b.png 2048w, https://assets.revolut.com/published-assets-v3/34cdb6a9-7cf7-4a5d-a902-0642aabddd18/6c752fc4-fdb7-465b-81d6-37ef540ca33b.png 3840w" type="image/webp">
-                                    <img src="https://assets.revolut.com/published-assets-v3/34cdb6a9-7cf7-4a5d-a902-0642aabddd18/6c752fc4-fdb7-465b-81d6-37ef540ca33b.png" alt="customer-satisfication-card" class="customers-image">
-                                </picture>
-                                <div class="million-customer-nothing"></div>
-                            </div>
-                            <figcaption class="million-customer-caption">Consumer Guardian Badge 2025</figcaption>
-                        </figure>
-                    </li>
-                </ul>
-            </span>
-         </section>
+         <section class="customer-satisfaction-card-container">
+            <div class="under-customer-satisfication-card-container">
+                <img src="https://assets.revolut.com/published-assets-v3/dfa154ba-a21c-4dc1-b9a3-4ce83ccdb1ca/3829d1d5-8883-4351-a6a8-a960d419f04e.png" alt="" class="satisfication-card-image">
+                <span class="satisfication-description-section">Customer Satisfaction — Gold</span>
+            </div>
+            <div class="under-customer-satisfication-card-container">
+                <img src="https://assets.revolut.com/published-assets-v3/f9f2192a-0076-4545-8e1e-83d852ea5130/264c79dd-e283-4f7d-9e60-a11079c7fc02.png" alt="" class="satisfication-card-image">
+                <span class="satisfication-description-section">Consumer Guardian Badge 2025</span>
+            </div>
+        </section>
          <!-- elevate your spents -->
         <div class="under-elevate-section-container">
             <div class="elevate-section">
-                <video class="video-containing-section" autoplay loop muted >
+                <video class="video-containing-section" id="for-width-in-tab" autoplay loop muted >
                     <source src="https://assets.revolut.com/published-assets-v3/076a0584-94c8-4d46-bec1-4402b2c5dcaf/70148cfd-9008-45aa-bb88-b048b8d02067.mp4" type="video/mp4">
                 </video>
             </div>
@@ -270,7 +216,7 @@
                     <span class="elevate-section-heading-container">
                         <h2 class="elevate-section-head">Elevate your spend</h2>
                         <span class="elevate-description-section">Earn points on your purchases with one of our debit cards. Then redeem them for Airline Miles and more. RevPoints T&Cs apply.
-                            <span class="elevate-small-description-section">Some cards available on paid plans only. Fees may apply.</span>
+                            <span class="elevate-small-description-section" id="for-margin-layout">Some cards available on paid plans only. Fees may apply.</span>
                         </span>
                         <span class="elevate-start-earning-section">
                             <a class="navigate-start-earning-section">
@@ -381,7 +327,7 @@
                         </span>
                     </span>
                 </div>
-                <div class="elevatind-nothing-section">
+                <div class="elevatind-nothing-section-second">
                 <video class="video-containing-section" autoplay loop muted >
                     <source src="https://assets.revolut.com/published-assets-v3/9425e1f7-4570-4587-8f23-bb2f4574e9c1/f2a2da0b-c311-4288-8ef5-f763dd2e708a.mp4" type="video/mp4">
                 </video>
@@ -429,7 +375,7 @@
         <h2 class="footer-main-heading">Choose your plan</h2>
         <section class="footer-card-container">
             <ul class="footer-unordered-list-items">
-                <li class="footer-card-list-items">
+                <li class="footer-card-list-items" id="grid-first">
                     <a class="footer-standard-section">
                         <span class="footer-card-content-container">
                             <h2 class="footer-card-head">Standard</h2>
@@ -443,7 +389,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="footer-card-list-items">
+                <li class="footer-card-list-items" id="grid-second">
                     <a class="footer-standard-section">
                         <span class="footer-card-content-container">
                             <h2 class="footer-card-head">Plus</h2>
@@ -457,7 +403,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="footer-card-list-items">
+                <li class="footer-card-list-items" id="grid-third">
                     <a class="footer-standard-section">
                         <span class="footer-card-content-container">
                             <h2 class="footer-card-head">Premium</h2>
@@ -471,7 +417,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="footer-card-list-items">
+                <li class="footer-card-list-items" id="grid-fourth">
                     <a class="footer-standard-section">
                         <span class="footer-card-content-container">
                             <h2 class="footer-card-head">Metal</h2>
@@ -485,7 +431,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="footer-card-list-items">
+                <li class="footer-card-list-items" id="grid-fifth">
                     <a class="footer-standard-section">
                         <span class="footer-card-content-container">
                             <h2 class="footer-card-head">Ultra</h2>
@@ -525,6 +471,25 @@
                     <img src="https://assets.revolut.com/assets/icons/16/ChevronDownSmall.svg" alt="footer-drop-down-arrow-image" class="footer-drop-down-arrow-image">
                 </div>
               </button>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Plans</h2>
+                 <a class="footer-plans-given">Plus</a>
+                 <a class="footer-plans-given">Premium</a>
+                 <a class="footer-plans-given">Metal</a>
+                 <a class="footer-plans-given">Ultra</a>
+                 <a class="footer-plans-given">Compare Plans</a>
+              </div>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Investments</h2>
+                 <a class="footer-plans-given">Stocks</a>
+                 <a class="footer-plans-given">Stocks & Shares ISA</a>
+                 <a class="footer-plans-given">Commodities</a>
+              </div>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Company</h2>
+                 <a class="footer-plans-given">Sustainability</a>
+                 <a class="footer-plans-given">Code of Conduct</a>
+              </div>
             </div>
             <div class="footer-drop-down-section-two">
               <button class="footer-drop-down-btn">
@@ -541,6 +506,22 @@
                     <img src="https://assets.revolut.com/assets/icons/16/ChevronDownSmall.svg" alt="footer-drop-down-arrow-image" class="footer-drop-down-arrow-image">
                 </div>
               </button>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Global Finances</h2>
+                 <a class="footer-plans-given">Travel with Revolut</a>
+                 <a class="footer-plans-given">International Transfers</a>
+                 <a class="footer-plans-given">eSIM Data Plans</a>
+                 <a class="footer-plans-given">Lounges</a>
+                 <a class="footer-plans-given">Insurance</a>
+              </div> 
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Help</h2>
+                 <a class="footer-plans-given">Contact Us</a>
+                 <a class="footer-plans-given">Help Centre</a>
+                 <a class="footer-plans-given">System Status</a>
+                 <a class="footer-plans-given">Developers API</a>
+                 <a class="footer-plans-given">Site Map</a>
+              </div>      
             </div>
             <div class="footer-drop-down-section-two">
               <button class="footer-drop-down-btn">
@@ -557,6 +538,22 @@
                     <img src="https://assets.revolut.com/assets/icons/16/ChevronDownSmall.svg" alt="footer-drop-down-arrow-image" class="footer-drop-down-arrow-image">
                 </div>
               </button>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Accounts</h2>
+                 <a class="footer-plans-given">Personal Account</a>
+                 <a class="footer-plans-given">Joint Account</a>
+                 <a class="footer-plans-given">Professional Account</a>
+                 <a class="footer-plans-given">For ages 16-17</a>
+                 <a class="footer-plans-given">Parents and guardians</a>
+              </div> 
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Security & Protection</h2>
+                 <a class="footer-plans-given">How We Protect Your Money</a>
+                 <a class="footer-plans-given">Report Lost Device</a>
+                 <a class="footer-plans-given">Learn About Fraud & Scams</a>
+                 <a class="footer-plans-given">Security Bugs</a>
+                 <a class="footer-plans-given">Consumer Security Insight Report</a>
+              </div>  
             </div>
             <div class="footer-drop-down-section-two">
               <button class="footer-drop-down-btn">
@@ -573,6 +570,21 @@
                     <img src="https://assets.revolut.com/assets/icons/16/ChevronDownSmall.svg" alt="footer-drop-down-arrow-image" class="footer-drop-down-arrow-image">
                 </div>
               </button>
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Smart Spending</h2>
+                 <a class="footer-plans-given">Cards</a>
+                 <a class="footer-plans-given">Send & Receive</a>
+                 <a class="footer-plans-given">Revolut Pay</a>
+                 <a class="footer-plans-given">RevPoints</a>
+                 <a class="footer-plans-given">Linked Accounts</a>
+                  <a class="footer-plans-given">Shops</a>
+              </div>  
+              <div class="footer-tap-drop-down">
+                 <h2 class="under-footer-tab-drop-down">Crypto</h2>
+                 <a class="footer-plans-given">Crypto</a>
+                 <a class="footer-plans-given">Revolut Ramp</a>
+                 <a class="footer-plans-given">Revolut X</a>
+              </div>  
             </div>
         </div>
         <ul class="unorder-footer-icon-container">
