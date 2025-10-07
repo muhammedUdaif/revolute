@@ -629,6 +629,7 @@ body {
     aspect-ratio:0.842697 / 1;;
     height: 100%;
     object-fit: contain;
+    object-fit: cover;
     backface-visibility: hidden;
     inset: 0 20px;
 }
@@ -1276,13 +1277,14 @@ body {
     }
     #for-width-in-tab{
         object-fit: cover;
+        width: 100%;
     }
     .elevate-section-heading-container{
         align-items: center;
         text-align: center;
     }
     .elevate-section-head{
-        font-size: 48px;
+        font-size: clamp(3rem, 2.55rem + 0.82vw, 3.75rem);
         font-weight: 500;
         letter-spacing: -0.6px;
         line-height: 1;
@@ -1298,6 +1300,10 @@ body {
     .elevatind-nothing-section{
         height: initial;
     }
+    .elevatind-nothing-section-first{
+        display: flex;
+        justify-content: center;
+    }
     .million-customer-image-items{
         height: 92.399px;
     }
@@ -1306,6 +1312,16 @@ body {
     }
     .satisfication-card-image{
         height: 126.39px;
+    }
+    .under-million-using-revolt-container{
+        text-align: center;
+        align-items: center;
+    }
+    .revolut-customer-head{
+        font-size: clamp(3rem, 2.55rem + 0.82vw, 3.75rem);
+        letter-spacing: -0.6px;
+        font-weight: 500;
+        line-height: 1;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -1440,7 +1456,6 @@ body {
     .revolut-image{
         width: 94.94px;
     }
-
     .hero-card-overlay{
         position: absolute;
         border: 3px solid #c9c9cd;
@@ -1448,7 +1463,78 @@ body {
         height: 100%;
         border-top-left-radius: calc(2.5vh);
         border-top-right-radius: calc(2.5vh);
-
+    }
+    .under-elevate-section-container-white-background{
+        min-height: 90vh;
+    }
+    #for-grid-better-layout{
+        grid-template-areas: "content media";
+        grid-template-rows: initial;
+        grid-template-columns: 488px 450px;
+        justify-content: space-between;
+        text-align: start;
+        align-items: center;
+        min-height: 90vh;
+    }
+    #for-letter-r-container{
+       margin-bottom: 0;
+        text-align: start;
+        align-items: start;
+    }
+    .for-money-container{
+        margin-bottom: 24px;
+        font-size: 49.1968px;
+    }
+    #width-containing-paragraph{
+        width: 60%;
+        margin-block: 18px !important;
+    }
+    .money-description{
+        margin-bottom: 0px;
+    }
+    #shield-container{
+        max-height: 600px !important;
+        height: 100% !important;
+    }
+    #for-small-screen-only{
+        display: none;
+    }
+    #for-large-screen-only{
+        display: block;
+        object-fit: contain;
+        margin-inline: auto;
+        aspect-ratio: unset;
+    }
+    .for-vedio-desktop{
+        height: 437px;
+    }
+    .under-million-using-revolt-container{
+        margin-block: 80px;
+        padding: 0;
+    }
+    .downloaded-revoute-btn-container{
+        margin-top: 8px;
+    }
+    .revolute-para-section{
+        padding-inline: 0;
+    }
+    .footer-container{
+        padding: 40px calc((100vw - 1000px) / 2); 
+    }
+    .footer-main-heading{
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        padding: 0;
+    }
+    .footer-card-container{
+        padding-inline: 0;
+    }
+    .footer-unordered-list-items{
+        gap: 24px;
+    }
+    .footer-drop-down{
+        padding-inline: 0;
     }
 }
 
