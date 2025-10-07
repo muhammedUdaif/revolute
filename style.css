@@ -1189,6 +1189,9 @@ body {
 .for-desktop-footer-section{
     display: none;
 }
+#for-large-screen-only{
+    display: none;
+}
 /* resposive section */
 @media screen and (min-width: 400px) {
     .inside-hero-card{
