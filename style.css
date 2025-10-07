@@ -1019,7 +1019,7 @@ body {
     min-width: 0px;
 }
 .footer-drop-text-head{
-    font-family: "font-2";
+    font-family: "font-7";
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 0.12px;
@@ -1184,9 +1184,9 @@ body {
     color: #8d969e;
     display: block;
 }
-#for-width-in-tab{
+/* #for-width-in-tab{
     aspect-ratio: unset;
-}
+} */
 .for-desktop-footer-section{
     display: none;
 }
