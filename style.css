@@ -1186,6 +1186,9 @@ body {
 #for-width-in-tab{
     aspect-ratio: unset;
 }
+.for-desktop-footer-section{
+    display: none;
+}
 /* resposive section */
 @media screen and (min-width: 400px) {
     .inside-hero-card{
@@ -1322,6 +1325,9 @@ body {
         letter-spacing: -0.6px;
         font-weight: 500;
         line-height: 1;
+    }
+    .for-desktop-footer-section{
+        display: none;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -1535,6 +1541,12 @@ body {
     }
     .footer-drop-down{
         padding-inline: 0;
+    }
+    .for-small-footer-section{
+        display: none;
+    }
+    .for-desktop-footer-section{
+        display: block;
     }
 }
 
