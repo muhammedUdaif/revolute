@@ -1333,6 +1333,9 @@ body {
     .for-desktop-footer-section{
         display: none;
     }
+    .million-using-revolt-container{
+        margin-inline: auto;
+    }
 }
 @media screen and (min-width: 1024px) {
     .header-section{
