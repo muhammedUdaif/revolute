@@ -833,6 +833,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-inline: auto;
     padding: 0px 20px;
     margin: 48px 0px;
     width: 100%;
